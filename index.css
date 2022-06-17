@@ -11,12 +11,33 @@
     height: 50%;
     width: 5%;
     margin-top: 50px;
-    margin-left: 15%;
+    margin-left: 8%;
 }
 .carousel-control-next{
     height: 50%;
     width: 5%;
     margin-top: 50px;
-    margin-right: 15%;
 }
 
+.search-btn{
+background-color: pink;
+}
+
+.day{
+    text-align: center;
+}
+.day a:link{
+text-decoration: none;
+}
+
+.date h3{
+    font-weight: 700;
+}
+.date h5{
+    margin-top: 10px; 
+    margin-left: 5px;
+}
+.time h6{
+    text-align: left;
+    margin-left: 20px;
+}
