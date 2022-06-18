@@ -7,12 +7,62 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
     <link rel="stylesheet" href="index.css" type="text/css">
     <link rel="stylesheet" href="./style.css" type="text/css">
+
+    <link rel="stylesheet" href="./index.css" type="text/css">
+  <!--	 font style_Rubik    -->
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <!--	 font style_Rubik    -->
     <title>Assessment2</title>
+	<style>
+	  body {
+	    background-image: url("img/bg.JPG");
+		background-size :cover;  
+      }	
+	</style>  
 </head>
 
 <body>
+	<!-- Vertical navbar -->
+    <nav>	
+    <div class="hover-content">
+      <div class="text-center" style="padding-bottom: 6.5rem;">
+		 <img src="img/user.png" alt="user.png" width="70">
+		 <h5 style="padding-top: 1rem;">Jennie Ng</h5>
+		 <p>Developer</p> 
+	  </div>
+	  <div class="text-center"> 	
+        <a href="#">
+		<img src="img/calendar.png" alt="calendar.png" width="30">
+		<p>Calendar</p>
+		</a>
+	  </div>
+	  <div class="text-center"> 	
+        <a href="#">
+		<img src="img/team member.png" alt="team member.png" width="30">
+		<p>Team member</p>
+		</a>	
+	  </div>
+	  <div class="text-center"> 	
+        <a href="#">
+		<img src="img/setting.png" alt="setting.png" width="30">
+		<p>Setting</p>
+		</a>	
+	  </div>
+	  <div class="text-center" style="padding-top: 9.5rem;">
+	    <a href="#">	
+        <img src="img/log out.png" alt="log out.png" width="30" >
+	    <p>Log out</p>
+	    </a>	  
+      </div>		
+    </div>	
+  </nav>	
+    <!-- End vertical navbar -->
+	
     <div class="container-fluid">
         <div class="row">
             <!-- start of Calendar List -->
@@ -164,6 +214,7 @@
                     </button>
                 </div>
             </div>
+
             <!-- end of Calendar List -->
 
             <!-- start of search bar -->
@@ -197,13 +248,13 @@
         </div>
         <div class="text-right" style="width: 90vw; margin-top: -35px;">
             <a href="#">
-                <img src="./img/icons8-pin-30.png">
+                <img src="./img/icons8-pin-30.png" alt="icons8-pin-30.png">
             </a>
             <a href="#">
-                <img src="./img/Delivery Time.png">
+                <img src="./img/Delivery Time.png" alt="Delivery Time.png">
             </a>
             <a href="#">
-                <img src="./img/Alarm.png">
+                <img src="./img/Alarm.png" alt="Alarm.png">
             </a>
         </div>
     </div>
@@ -233,7 +284,7 @@
 
                     <button type="button" class="close">
                         <span aria-hidden="true"> <a href="#">
-                                <img src="./img/Avatar.png">
+                                <img src="./img/Avatar.png" alt="Avatar.png">
                             </a>
                         </span>
                     </button>
@@ -275,7 +326,7 @@
                                 onfocus="this.placeholder = ''"></textarea>
                         </div>
                         <a href="#">
-                            <img class="pin-img" src="./img/icons8-pin-30.png">
+                            <img class="pin-img" src="./img/icons8-pin-30.png" alt="icons8-pin-30.png">
                         </a>
 
                         <div class="form-group">
@@ -450,7 +501,10 @@
         <!-- end of Task List Section -->
     </div>
 
-    <script src="https://kit.fontawesome.com/e038b5dfcb.js" crossorigin="anonymous"></script>
+    
+    <script src="https://kit.fontawesome.com/e038b5dfcb.js" crossorigin="anonymous"></script> 
+<!--       Bootstrap Js			-->
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
