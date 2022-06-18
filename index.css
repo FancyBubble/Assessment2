@@ -20,3 +20,58 @@
     margin-right: 15%;
 }
 
+/* Navigation Bar */
+.p-fontsize p {
+   font-size: 10px;
+}
+
+nav {
+  position: fixed;
+  z-index: 5;
+  left: -19%;
+  display: flex;
+  align-items: center;
+  height:100vh;
+  padding-left: 5rem;
+  padding-right: 2rem;
+/*  font-size: 10px;*/
+  line-height: 2.2;
+  background: #D6D6D6;	
+  color: black;
+  transition: left 200ms linear 100ms;
+
+}
+
+nav:hover {
+  left: 0;
+}
+
+nav .hover-content {
+  margin-right: 3em;
+}
+
+nav h5 {
+  font-family: 'Rubik', sans-serif;
+/*  font-size: 2.6em;*/
+}
+
+/*
+nav h3 {
+  padding-bottom: 1.1em;
+}
+*/
+
+nav a {
+  text-decoration: none;
+  font-family: 'Rubik', sans-serif; 	
+  color: black;
+  transition: color 50ms linear 100ms;
+
+}
+
+nav a:hover,
+nav a.active {
+  color: #86bccf;
+}
+
+
