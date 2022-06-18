@@ -1,0 +1,131 @@
+:root {
+    --task-color: #C0C0C0;
+}
+
+.container-fluid {
+    height: auto;
+    width: 100%;
+}
+
+.day {
+    margin-top: 40px;
+}
+
+.carousel-control-prev {
+    height: 50%;
+    width: 5%;
+    margin-top: 50px;
+    margin-left: 8%;
+}
+
+.carousel-control-next {
+    height: 50%;
+    width: 5%;
+    margin-top: 50px;
+}
+
+.search-btn {
+    background-color: pink;
+}
+
+.day {
+    text-align: center;
+}
+
+.day a:link {
+    text-decoration: none;
+}
+
+.date h3 {
+    font-weight: 700;
+}
+
+.date h5 {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.time h6 {
+    text-align: left;
+    margin-left: 8px;
+}
+
+#todo-list,
+#done-list {
+    background-color: #8d8d8c;
+}
+
+#doing-list {
+    background-color: #3D3D3D;
+}
+
+.list-header {
+    color: white;
+    text-align: center;
+}
+
+.list-tasks {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0 8px;
+    height: 495px;
+}
+
+.list-task {
+    background-color: var(--task-color);
+    border-radius: 15px;
+    box-shadow: 0 1px 0 #091e4240;
+    cursor: pointer;
+    margin-bottom: 8px;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.list-task-avatar {
+    margin-left: 8px;
+}
+
+.list-task-time {
+    color: #4D4D4D;
+    font-size: 16px;
+    position: absolute;
+    left: 87%;
+    top: 35%;
+}
+
+.list-task-date {
+    color: #4D4D4D;
+    font-size: 16px;
+    position: absolute;
+    left: 75%;
+    top: 60%;
+}
+
+.add-btn {
+    margin: 8px;
+    float: right;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1480px) {
+    #list-section {
+        padding: 34px 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .task-list-form {
+        border-radius: 10px;
+        width: 400px;
+        height: 600px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 768px) {}
