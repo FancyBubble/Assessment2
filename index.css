@@ -30,13 +30,18 @@ background-color: pink;
 text-decoration: none;
 }
 
-.date h3{
+.time h2{
     font-weight: 700;
+    width: 42px;
+    margin-bottom: 5px;
 }
-.date h5{
-    margin-top: 10px; 
-    margin-left: 5px;
+
+.date-align{
+  flex-direction: row-reverse;
+  align-items: flex-end;
 }
+
+
 .time h6{
     text-align: left;
     margin-left: 20px;
@@ -106,10 +111,88 @@ text-decoration: none;
     border-bottom-right-radius: calc(0.3rem - 1px);
     border-bottom-left-radius: calc(0.3rem - 1px);
   }
+  
 .close{
     width: 150px;
+    padding-right: 0;
 }
   .close span a img{
-    width: 30%;
+    width: 60%;
     height: auto;
+    padding: 0;
   }
+
+.search-bar{
+  margin-top: 60px;
+}
+
+.in-hand-text,.in-progress-text,.finish-text{
+  font-size: x-small;
+}
+
+
+.modal-header{
+padding-right: 0;
+}
+
+.modal-body h5{
+margin-top: 60px;
+}
+
+.progress-text{
+  display: flex;
+  justify-content: space-between;
+}
+
+.css-button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5px;
+  margin: 4px 2px;
+  border-radius: 20px;
+}
+
+.css-button2 {
+  background-color: #ffff00;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5px;
+  margin: 4px 2px;
+  border-radius: 20px;
+}
+
+.css-button3 {
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5px;
+  margin: 4px 2px;
+  border-radius: 20px;
+}
+
+.css-button:focus,.css-button2:focus,.css-button3:focus{
+  border:2px solid blue;
+}
+
+.pin-img{
+position: absolute;
+margin-left: 87%;
+margin-top: 6%;
+}
+
+.radio-btn input{
+  margin-left: 8px;
+}
