@@ -60,6 +60,13 @@
     top: 60%;
 }
 
+.list-task-extras {
+    position: absolute;
+    left: 90%;
+    top: 15%;
+    cursor: pointer;
+}
+
 .add-btn {
     margin: 8px;
     float: right;
