@@ -60,11 +60,52 @@
     top: 60%;
 }
 
-.list-task-extras {
+.list-task-dot {
     position: absolute;
     left: 90%;
     top: 15%;
+    z-index: 5;
+}
+
+.list-task-popup {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 40%;
+    z-index: 1;
+}
+
+.list-task-extras {
+    color: #4D4D4D;
+    font-size: 14px;
+    list-style-type: none;
+    padding: 3px;
+    position: absolute;
+    top: 5%;
+    right: 30%;
+}
+
+.list-task-dot-content {
+    width: 100%;
+}
+
+.list-task-extras li {
+    float: right;
+    padding: 4px;
     cursor: pointer;
+}
+
+.list-task-extras li span {
+    padding: 0 8px;
+    margin-left: 3px;
+    transition: .1s ease-in-out;
+    border-radius: 16px;
+}
+
+.list-task-extras li span:hover {
+    background-color: rgba(196, 196, 196, 0.651);
+    box-shadow: rgba(196, 196, 196, 0.651);
 }
 
 .add-btn {
