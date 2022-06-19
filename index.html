@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
     <!--	 font style_Rubik    -->
     <title>Assessment2</title>
     <style>
@@ -225,12 +226,12 @@ ______________________________________
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev bg-dark" type="button" data-target="#carouselExampleControls"
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls"
                         data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </button>
-                    <button class="carousel-control-next bg-dark" type="button" data-target="#carouselExampleControls"
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleControls"
                         data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
@@ -244,11 +245,11 @@ ______________________________________
                 <div class="input-group md-form form-sm form-1 pl-0">
                     <div class="input-group-prepend">
                         <a href="#">
-                            <button type="button" class="btn btn-info rounded-pill"><i class="fas fa-search text-black"
+                            <button type="button" class="btn btn-style rounded-pill"><i class="fas fa-search text-black"
                                     aria-hidden="true"></i></button>
                         </a>
                     </div>
-                    <input class="form-control my-0 py-1 rounded-pill" type="text" placeholder="" aria-label="Search">
+                    <input id="search-box" class="form-control my-0 py-1 rounded-pill" type="text" placeholder="" aria-label="Search">
                 </div>
             </div>
             <!-- end of search bar -->
@@ -607,6 +608,9 @@ ______________________________________
         }
 
     </script>
+    <script>
+    $('#reminder').tooltip()
+        </script>
 </body>
 
 </html>
