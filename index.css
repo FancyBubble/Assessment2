@@ -1,7 +1,7 @@
-/* Samuel Code Start*/
+
 @media only screen and (min-width:768px) {
   .top-icon{
-    width: 90vw; 
+    width: 90vw;
     margin-top: -35px;
     text-align: right;
   }
@@ -45,7 +45,7 @@
       width: 10%;
       margin-top: 40px;
   }
-}
+}  
 .container-fluid {
     height: auto;
     width: 100%;
@@ -62,9 +62,16 @@ background-color: pink;
 .day{
     text-align: center;
 }
+.day a{ 
+color: white;
+text-shadow: grey 2px 0 10px;;
+}
 .day a:link{
 text-decoration: none;
 }
+.day a:hover{
+  color: #00304B;
+  }
 
 .time h2{
     font-weight: 700;
@@ -76,7 +83,10 @@ text-decoration: none;
   margin-left: 20px;
 }
 
-
+.time{
+  color: #ffffff;
+  text-shadow: grey 2px 0 10px;;
+}
 .date-align{
   flex-direction: row-reverse;
   align-items: flex-end;
@@ -223,7 +233,7 @@ margin-top: 60px;
 
 .pin-img{
 position: absolute;
-margin-left: 87%;
+margin-left: 84%;
 margin-top: 6%;
 }
 
@@ -274,4 +284,19 @@ nav a.active {
   color: #86bccf;
 }
 
+.btn-style{
+  background-color: #CBE2E6;
+}
+.btn-style:hover {
+  background-color: #DAECF0;
+}
+.btn-style:active{
+  background-color: #DAECF0;
+}
+.btn-style::after{
+  background-color: #DAECF0;
+}
 
+#search-box{
+  opacity: 0.5;
+}
