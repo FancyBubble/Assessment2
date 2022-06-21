@@ -126,7 +126,7 @@
 
 /* End---Three of list style*/
 
-@media only screen and (min-width: 769px) and (max-width: 1480px) {
+@media only screen and (min-width: 769px) and (max-width: 1920px) {
   #list-section {
     padding: 34px 20px;
     display: flex;
@@ -140,6 +140,7 @@
     height: 600px;
     display: inline-block;
   }
+
 }
 
 @media only screen and (max-width: 768px) {}
@@ -435,7 +436,7 @@ nav a.active {
   right: 0;
   min-width: 160px;
   /*  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
-  z-index: 1;
+  z-index: 10;
 }
 
 .dropdown-content a {
@@ -452,5 +453,5 @@ nav a.active {
 
 /*screen of Circle navbar Mobile*/
 #navmobile {
-  z-index: 1;
+  z-index: 10;
 }
